@@ -27,4 +27,7 @@ function ffmpeg-blur-pillarbox() {
     "$2"
 }
 
-ffmpeg-blur-pillarbox "$1" "$2"
+# Only execute if script is run directly (not sourced)
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  ffmpeg-blur-pillarbox "$1" "$2"
+fi

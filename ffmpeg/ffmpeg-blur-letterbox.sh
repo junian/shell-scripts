@@ -18,4 +18,7 @@ function ffmpeg-blur-letterbox() {
     "$2"
 }
 
-ffmpeg-blur-letterbox "$1" "$2"
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  ffmpeg-blur-letterbox "$1" "$2"
+fi
+
