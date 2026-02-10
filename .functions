@@ -1,0 +1,2 @@
+source "./ffmpeg/ffmpeg-blur-letterbox.sh"
+source "./ffmpeg/ffmpeg-blur-pillarbox.sh"
