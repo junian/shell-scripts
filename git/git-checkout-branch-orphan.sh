@@ -9,7 +9,7 @@ function git-checkout-branch-orphan() {
   git reset --hard
   touch README.md
   git add .
-  git commit -m "Created to a new branch '$1'"
+  git commit -m "Created a new branch '$1'"
 }
 
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
