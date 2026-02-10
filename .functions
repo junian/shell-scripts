@@ -1,2 +1,4 @@
 source "./ffmpeg/ffmpeg-blur-letterbox.sh"
 source "./ffmpeg/ffmpeg-blur-pillarbox.sh"
+source "./git/git-switch-branch-orphan.sh"
+source "./git/git-checkout-branch-orphan.sh"
